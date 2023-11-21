@@ -4,7 +4,7 @@
 
 int main()
 {
-  MLP mlp = {2, 2, 2};
+  MLP mlp({2, 2, 2});
   std::cout << mlp << std::endl;
 
   auto v = mlp.ForwardPropogation({1, 0});
